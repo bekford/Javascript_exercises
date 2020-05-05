@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<!--  <script src="1.js"></script>--->
+<p>1.</p>
+<button onclick="showHello()">Click me!</button>
+<br>
+<p>2.</p>
+<button onmouseover="showMessage()">Наведи на меня</button>
+<br>
+<p>3.</p>
+<button ondblclick="dblclickMessage()"> Dblclick me!</button>
+<br>
+<p>4.</p>
+<input type="submit" class="exercise_4" onmouseout="mouseOutMessage()" value="Наведи на меня мышь - а потом убери!">
+<br>
+<p>5.</p>
+<input type="text" value="Ку-ку" id="test">
+<button onclick="showInput()">Click me</button>
+<button onclick="changeInput()">Click me</button>
+<br>
+<p>6.</p>
+<img src="https://vecherka74.ru/uploads/posts/2016-06/1465472532_monkey_2016_02.jpg" 
+id="picture" onmouseover='showTwoMonkies()' onmouseout='showOneMonkie()'>
+<br>
+<p>7.</p>
+<input type="submit" onclick="funcWithThis(this)" value="Нажми на меня">
+<br>
+<p>8.</p>
+<input type="submit" onclick="changeValueThis(this)" value="Нажми на меня">
+<br>
+<p>9.</p>
+<input type="submit" onclick="changeValueThis2Time(this)" value="Нажми на меня">
+<br>
+<p>10.</p>
+<input type="submit" onclick="changeValueOneTime(this)" value="Нажми на меня">
+<br>
+<p>11.</p>
+<input type="submit" onclick="blockonclick(this)" name="submit" value="Нажми на меня">
+<br>
+<p>12.</p>
+<img src="https://vecherka74.ru/uploads/posts/2016-06/1465472532_monkey_2016_02.jpg" 
+id="picture" onmouseover='showTwoMonkiesThis(this)' onmouseout='showOneMonkieThis(this)'>
+<br>
+<p>13.</p>
+<input type="text" value="Ку-ку" id="test2">
+<input type="submit" onclick="changeColor()" value="Нажми на меня">
+<br>
+<p>14.</p>
+<input type="text" value="Ку-ку" id="test3">
+<input type="submit" onclick="hideText()" value="Нажми на меня">
+<input type="submit" onclick="showText()" value="А потом на меня">
+<br>
+<p>15.</p>
+<input type="text" value="Ku-Ku" id="test4">
+<input type="submit" onclick="changeTextAndColor()" value="Нажми на меня">
+<input type="submit" onclick="changeTextAndColorBack()" value="Вернуть все назад">
+<br>
+<p>16.</p>
+<input type="text" value="Нажми на меня" id='test5'>
+<input type="submit" onclick="blockInput()">
+<input type="submit" onclick="unBlockInput()" class="hiddenInput" 
+value="Нажмите, чтобы отблокировать элемент">
+<br>
+<p>17.</p>
+<button onclick="number_plus()"><span id="number" value="0"></span></button>
+
+
+<script src="1.js"></script>
+</body>
+
+</html>

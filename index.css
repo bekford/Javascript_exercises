@@ -1,0 +1,7 @@
+.exercise_4 {    
+    border: 1px solid red;
+    height: 200px;
+}
+.hiddenInput {
+    display: none;
+}
